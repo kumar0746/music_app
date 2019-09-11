@@ -1,4 +1,4 @@
-# console application
+# Console application
 ```
 python driver.py --help
 Usage: driver.py [OPTIONS]
@@ -12,6 +12,12 @@ Options:
  sample usage
  python driver.py --sfl tests/mixtape-data.json --cfl tests/update_playlist.json --ofl output.txt
 ```
+## Sample Changes file
+All files are in test folder.	
+* Add an existing song to an existing playlist - update_playlist.json
+* Add a new playlist for an existing user - add_playlist.json
+* the playlist should contain at least one existing song - invalid_playlist.json
+* Remove an existing playlist - delete_playlist.json
 
 # Run all tests
     cd music_app/tests
