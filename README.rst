@@ -35,7 +35,7 @@ High level design
 	• User information can be added in cache and when ever a playlist is created/ deleted for an user, we can check that in cache and update the playlist or song information in DB.
 	• Application server handles the requests from clients
 
-![image High level design](https://github.com/kumar0746/music_app/blob/master/high_level_design.png)
+![image "High level design"](https://github.com/kumar0746/music_app/blob/master/high_level_design.png)
 
 Bottle necks
 	Since system needs to be available 99.99% we can have multiple application servers at different availability zones. Even if one data center is down, we will be still able to server requests from other data centers
