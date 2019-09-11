@@ -1,3 +1,6 @@
+'''
+Handles commiting operations related to changes file
+'''
 def commit_changes(database, change):
     # throw exception if database or change is empty based on use case
 

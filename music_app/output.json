@@ -1,0 +1,265 @@
+{
+    "playlists": [
+        {
+            "song_ids": [
+                "8", 
+                "32", 
+                "41"
+            ], 
+            "user_id": "2", 
+            "id": "1"
+        }, 
+        {
+            "song_ids": [
+                "6", 
+                "8", 
+                "11"
+            ], 
+            "user_id": "3", 
+            "id": "2"
+        }, 
+        {
+            "song_ids": [
+                "7", 
+                "12", 
+                "13", 
+                "16", 
+                "2"
+            ], 
+            "user_id": "7", 
+            "id": "3"
+        }
+    ], 
+    "users": [
+        {
+            "id": "1", 
+            "name": "Albin Jaye"
+        }, 
+        {
+            "id": "2", 
+            "name": "Dipika Crescentia"
+        }, 
+        {
+            "id": "3", 
+            "name": "Ankit Sacnite"
+        }, 
+        {
+            "id": "4", 
+            "name": "Galenos Neville"
+        }, 
+        {
+            "id": "5", 
+            "name": "Loviise Nagib"
+        }, 
+        {
+            "id": "6", 
+            "name": "Ryo Daiki"
+        }, 
+        {
+            "id": "7", 
+            "name": "Seyyit Nedim"
+        }
+    ], 
+    "songs": [
+        {
+            "title": "Never Be the Same", 
+            "id": "1", 
+            "artist": "Camila Cabello"
+        }, 
+        {
+            "title": "The Middle", 
+            "id": "2", 
+            "artist": "Zedd"
+        }, 
+        {
+            "title": "Pray For Me", 
+            "id": "3", 
+            "artist": "The Weeknd"
+        }, 
+        {
+            "title": "God's Plan", 
+            "id": "4", 
+            "artist": "Drake"
+        }, 
+        {
+            "title": "Meant to Be", 
+            "id": "5", 
+            "artist": "Bebe Rexha"
+        }, 
+        {
+            "title": "Whatever It Takes", 
+            "id": "6", 
+            "artist": "Imagine Dragons"
+        }, 
+        {
+            "title": "Wait", 
+            "id": "7", 
+            "artist": "Maroon 5"
+        }, 
+        {
+            "title": "Mine", 
+            "id": "8", 
+            "artist": "Bazzi"
+        }, 
+        {
+            "title": "FRIENDS", 
+            "id": "9", 
+            "artist": "Marshmello"
+        }, 
+        {
+            "title": "New Rules", 
+            "id": "10", 
+            "artist": "Dua Lipa"
+        }, 
+        {
+            "title": "In My Blood", 
+            "id": "11", 
+            "artist": "Shawn Mendes"
+        }, 
+        {
+            "title": "Psycho", 
+            "id": "12", 
+            "artist": "Post Malone"
+        }, 
+        {
+            "title": "No Tears Left To Cry", 
+            "id": "13", 
+            "artist": "Ariana Grande"
+        }, 
+        {
+            "title": "Finesse", 
+            "id": "14", 
+            "artist": "Bruno Mars"
+        }, 
+        {
+            "title": "All The Stars", 
+            "id": "15", 
+            "artist": "Kendrick Lamar"
+        }, 
+        {
+            "title": "Him & I", 
+            "id": "16", 
+            "artist": "G-Eazy"
+        }, 
+        {
+            "title": "I Like Me Better", 
+            "id": "17", 
+            "artist": "Lauv"
+        }, 
+        {
+            "title": "Let You Down", 
+            "id": "18", 
+            "artist": "NF"
+        }, 
+        {
+            "title": "IDGAF", 
+            "id": "19", 
+            "artist": "Dua Lipa"
+        }, 
+        {
+            "title": "Delicate", 
+            "id": "20", 
+            "artist": "Taylor Swift"
+        }, 
+        {
+            "title": "One Kiss", 
+            "id": "21", 
+            "artist": "Calvin Harris"
+        }, 
+        {
+            "title": "Perfect", 
+            "id": "22", 
+            "artist": "Ed Sheeran"
+        }, 
+        {
+            "title": "No Excuses", 
+            "id": "23", 
+            "artist": "Meghan Trainor"
+        }, 
+        {
+            "title": "On The Loose", 
+            "id": "24", 
+            "artist": "Niall Horan"
+        }, 
+        {
+            "title": "Alone", 
+            "id": "25", 
+            "artist": "Halsey"
+        }, 
+        {
+            "title": "Done For Me", 
+            "id": "26", 
+            "artist": "Charlie Puth"
+        }, 
+        {
+            "title": "Sit Next to Me", 
+            "id": "27", 
+            "artist": "Foster The People"
+        }, 
+        {
+            "title": "Lights Down Low", 
+            "id": "28", 
+            "artist": "Max"
+        }, 
+        {
+            "title": "No Roots", 
+            "id": "29", 
+            "artist": "Alice Merton"
+        }, 
+        {
+            "title": "Want You Back", 
+            "id": "30", 
+            "artist": "5 Seconds Of Summer"
+        }, 
+        {
+            "title": "Havana", 
+            "id": "31", 
+            "artist": "Camila Cabello"
+        }, 
+        {
+            "title": "Everyday", 
+            "id": "32", 
+            "artist": "Logic"
+        }, 
+        {
+            "title": "Nice For What", 
+            "id": "33", 
+            "artist": "Drake"
+        }, 
+        {
+            "title": "Bad At Love", 
+            "id": "34", 
+            "artist": "Halsey"
+        }, 
+        {
+            "title": "Let Me", 
+            "id": "35", 
+            "artist": "ZAYN"
+        }, 
+        {
+            "title": "Love Lies", 
+            "id": "36", 
+            "artist": "Khalid"
+        }, 
+        {
+            "title": "rockstar", 
+            "id": "37", 
+            "artist": "Post Malone"
+        }, 
+        {
+            "title": "These Days", 
+            "id": "38", 
+            "artist": "Rudimental"
+        }, 
+        {
+            "title": "Familiar", 
+            "id": "39", 
+            "artist": "Liam Payne"
+        }, 
+        {
+            "title": "Thunder", 
+            "id": "40", 
+            "artist": "Imagine Dragons"
+        }
+    ]
+}

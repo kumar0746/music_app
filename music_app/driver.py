@@ -19,9 +19,9 @@ class MusicAppDriver:
     def __init__(self):
         self.parser = Parser()
 
-    def execute(self, sourcefile, changesfile, outputfile):
+    def execute(self, sourcefile, changesfile):
 
-        if not (sourcefile and changesfile and outputfile):
+        if not (sourcefile and changesfile):
             # ideally initialize a default DB or changes doc
             return
 
@@ -29,10 +29,11 @@ class MusicAppDriver:
         self.changes = self.parser.read_from_file(changesfile, READ_CHANGES)
         commit_changes(self.database, self.changes)
 
-        with open(outputfile , 'w') as outfile:
+        with open("output.json" , 'w') as outfile:
             json.dump(
                 self.database,
                 outfile,
+                sort_keys=False,
                 default=convert_to_dict,
                 indent=4,
             )
@@ -42,9 +43,8 @@ class MusicAppDriver:
 @click.command()
 @click.option("--sfl", help="Source file location")
 @click.option("--cfl", help="Change file location")
-@click.option("--ofl", help="Output file location")
-def music_driver(sfl,cfl,ofl):
-    MusicAppDriver().execute(sfl,cfl,ofl)
+def music_driver(sfl,cfl):
+    MusicAppDriver().execute(sfl,cfl)
 
 if __name__ == '__main__':
     music_driver()
