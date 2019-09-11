@@ -1,5 +1,7 @@
 # Console application
 ```
+source venv/bin/activate
+
 python driver.py --help
 Usage: driver.py [OPTIONS]
 
