@@ -1,3 +1,18 @@
+# console application
+```
+python driver.py --help
+Usage: driver.py [OPTIONS]
+
+Options:
+  --sfl TEXT  Source file location
+  --cfl TEXT  Change file location
+  --ofl TEXT  Output file location
+  --help      Show this message and exit.
+  
+ sample usage
+ python driver.py --sfl tests/mixtape-data.json --cfl tests/update_playlist.json --ofl output.txt
+```
+
 # Run all tests
     cd music_app/tests
     pytest .
